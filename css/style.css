@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding: 8px 0; 
+    background-color: #C62828;
+    
+}
+
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+  
+}
+
+header ul{
+    float: right;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    
+}
+
+header ul li{
+    display: inline-block;
+
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;  
+}
+
+header ul li a:hover{
+    background-color:#C62828;
+    color: #fff;
+}
+
+.active{
+    background-color:#C62828;
+    color: #fff;
+}
+
+.banner{
+    height: 80vh;
+    background-image: url(../picture/smktelkommalang.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner :after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 0, 1 , 0.3) ;
+}
+
+.banner h1{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #595555;
+    margin-bottom: 40px;
+}
+
+.image{
+    padding: 10px;
+    width: 250px;
+    weight: 250px;
+    border-radius: 50% ;
+    margin: 0 auto;
+    border: 15px double darkgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.JavaScript h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+    margin-bottom: 0;
+}
+
+.JavaScript p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.python h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+}
+
+.python p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Java h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+}
+
+.Java p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.csharp h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+}
+
+.csharp p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.typescript h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+}
+
+.typescript p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.PHP h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;
+}
+
+.PHP p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.Cplus h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;   
+}
+
+.Cplus p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.C h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;  
+}
+
+.C p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.Go h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;    
+}
+
+.Go p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.Kotlin h4{
+    text-align: center;
+    padding: 10px 0;
+    color: #3D3B3B;  
+}
+
+.Kotlin p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+}
+
+
+
+
